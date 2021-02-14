@@ -59,21 +59,21 @@ footer {
   color: #ffffff;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .container-portfolio {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 1px solid red;
+  width: 1200px;
+  /* outline: 1px solid red; */
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 .main-nav {
@@ -91,7 +91,7 @@ footer {
   line-height: 1.19;
   text-decoration: none;
   color: #000000;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .link {
@@ -101,7 +101,7 @@ footer {
 
 .link .item {
   margin-right: 50px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .link .item:last-child {
@@ -228,16 +228,15 @@ footer {
   display: flex;
   padding-top: 94px;
   margin-bottom: 0;
-  /* max-width: 1200px; */
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.img-item:not(:last-child) {
+.images > li:not(:last-child) {
   padding-right: 30px;
 }
 
-.img-item {
+.images > li {
   padding-bottom: 94px;
   margin-bottom: 0;
 }
@@ -260,7 +259,6 @@ footer {
 
 .container-name {
   display: flex;
-  /* max-width: 1200px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -271,7 +269,6 @@ footer {
 }
 
 .team-page li {
-  /* padding-bottom: 30px; */
   margin-bottom: 94px;
   background-color: rgba(236, 236, 236, 1);
 }
@@ -291,30 +288,13 @@ footer {
   margin-bottom: 30px;
   text-align: center;
   padding-bottom: 30px;
-  /* margin-bottom: 94px; */
 }
 
 .card {
   background: var(--white-text);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.current :focus {
-  color: var(--blue);
-}
-
-.portfolio-header {
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
-
-.container.img {
-  display: flex;
-  margin-left: 0;
-  margin-right: 30px;
+  width: 370px;
 }
 
 /* Портфолио */
@@ -355,7 +335,9 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .project {
@@ -364,6 +346,8 @@ footer {
   line-height: 1.88;
   margin-top: 4px;
   margin-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .flex-container {
@@ -419,7 +403,6 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
-  margin-top: 20px;
+  margin-top: 9px;
   margin-bottom: 60px;
-  padding-top: 9px;
 }
