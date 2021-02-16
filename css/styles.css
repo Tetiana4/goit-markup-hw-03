@@ -412,35 +412,21 @@ footer {
 .logo-footer {
   color: #ffffff;
   margin-bottom: 20px;
-  display: block;
 }
 
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  min-height: 252px;
-  /* margin-top: 0;
-  margin-bottom: 0; */
   outline: 1px solid red;
 }
 
+.footer-nav {
+}
 .footer-link {
   color: var(--white-text-op60);
-  display: block;
-  text-decoration: none;
-  /* display: block; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
-  display: flex;
-  /* position: absolute; */
-}
-.p {
-  margin-bottom: 9px;
-  display: block;
-}
-
-.container .footer {
-  display: flex;
-  align-items: center;
+  text-decoration: none;
+  margin-top: 9px;
 }
