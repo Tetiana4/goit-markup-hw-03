@@ -441,7 +441,7 @@ footer {
   color: var(--white-text-op60);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   text-decoration: none;
   margin-top: 9px;
   display: inline-block;
